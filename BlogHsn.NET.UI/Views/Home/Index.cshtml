@@ -1,0 +1,12 @@
+﻿@using BlogHsn.NET.API.Entities
+@model IList<Post>
+
+@{
+    foreach(var post in Model)
+    {
+        <div class="post">
+            <h2>@post.Viewed</h2>
+            <p>@post.Content</p>
+        </div>
+    }
+}

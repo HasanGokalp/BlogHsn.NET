@@ -1,0 +1,6 @@
+@BlogHsn.NET.WORKERAPI_HostAddress = http://localhost:5150
+
+GET {{BlogHsn.NET.WORKERAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
